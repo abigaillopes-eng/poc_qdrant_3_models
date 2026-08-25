@@ -28,4 +28,4 @@ pytest -q
 5. Avaliação simples com perguntas e documentos esperados.
 
 ## Conclusão operacional
-A solução evita refazer parsing e chunking. Contudo, ao introduzir um novo modelo depois, ainda é necessário gerar seus embeddings a partir do texto persistido. Além disso, o schema do named vector precisa existir na collection; se ele não existir, crie uma nova collection com o schema completo e migre/copiei os pontos usando o payload existente.
+A solução evita refazer parsing e chunking. Contudo, ao introduzir um novo modelo depois, ainda é necessário gerar seus embeddings a partir do texto persistido. Além disso, o schema do named vector precisa existir na collection; se ele não existir, crie uma nova collection com o schema completo e migre/copie os pontos usando o payload existente.
